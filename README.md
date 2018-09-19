@@ -1,1 +1,1 @@
-# -home-dell-Desktop-codes-WUIMG
+# it's an early training on using bootstrap
