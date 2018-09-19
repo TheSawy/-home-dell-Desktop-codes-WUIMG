@@ -1,0 +1,352 @@
+body{
+	background: #f2f2f2;
+}
+
+nav{
+	position: fixed;
+}
+nav .container-fluid {
+	padding: 4px;
+	background-color:  #262626;
+
+}
+.logo  {
+	height: 20px;
+	width: 152;
+}
+.navbar-buy{
+	padding-left: 500px;
+}
+#button{
+	padding-left: 900px;
+	padding-bottom:  7px;
+}
+#first-jumbotron{
+	margin-left: 20px;
+}
+.FJ{
+	height: 450px;
+	width: 100%;
+	position: relative;
+}
+#jumbotron-content{
+	padding-top: 120px;
+}
+ .jumbotron-img {
+	border-radius: 50%;
+	width: 67%;
+	
+
+}
+@media screen and (max-width: 993px){
+	.FJ .jumbotron-img {
+		margin-top: 1%;
+		margin-left: 1%;
+		width: 20%;
+		position: absolute;
+		bottom: 200px;
+	}
+}
+@media screen and (max-width: 600px){
+	.FJ .jumbotron-img {
+		width: 30%;
+		position: absolute;
+		bottom: 250px;
+	}
+}
+
+.jumbotron .col-md-4 img{
+	margin-top: 5%;
+	margin-left: 10%;
+}
+.jumbotron #jumbotron-content > h1{
+	font-weight: bold;
+}
+.jumbotron #jumbotron-content > p{
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+ .overflow-span{
+	font-weight: bold;
+	background-color: #ffdb43;
+	padding: 5px 6px 11px 6px;
+    letter-spacing: 5px;
+    font-size: 25px;
+    font-family:  sans-serif;
+    margin-left: 35px;
+    margin-top: 20px;
+    position: fixed;
+    z-index: 999;
+}
+.portofolio{
+	width: 150px;
+	height: 30px;
+	background-color: black;
+	letter-spacing: 5px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	margin-left: 70px;
+}
+.SJ{
+	margin-top: 50px;
+	margin-left: 60px;
+}
+.SJ img{
+	height: 100%;
+	width: 100%;
+}
+.TJ{
+	height: 650px;
+	width: 1300px;
+	margin-top: 70px;
+	margin-left: -16px;
+}
+.TJ .about-me{
+	width: 120px;
+	height: 25px;
+	background-color: black;
+	letter-spacing: 5px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	
+}
+.TJ .row h1{
+	font-weight: bold;
+	padding-top: 30px;
+}
+.TJ .row  p{
+	font-size: 15px;
+	letter-spacing: 3px;
+	padding: 5px;
+	line-height: 30px;
+	padding-top: 30px;
+}
+.TJ .row .md{
+	padding-left:  50px;
+}
+.TJ .row  b {
+	font-size: 15px;
+	letter-spacing: 3px;
+	padding-right: 15px;
+	line-height: 40px;
+
+
+}
+.TJ .row ul{
+	margin-right: 40px;
+	padding-top: 30px;
+}
+ .TJ .row ul li {
+   list-style-type: none;
+   margin-left: -38px; 
+
+}
+.TJ .row .md .CV{
+	width: 160px;
+	height: 45px;
+	background-color: #ffdb43;
+	letter-spacing: 5px;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	margin-top:  20px;
+}
+.TJ .row .progress .progress-bar-warning{
+	 background-color:  #ffdb43 !important;
+}
+.container .forth-jumbotron{
+	height: 600px;
+	width: 1300px;
+	background-color: #ffdb43;
+	margin-left: -16px;
+
+}
+.container .forth-jumbotron .r1 {
+	padding-top: 70px;
+}
+.container .forth-jumbotron .r2 {
+	padding-top: 60px;
+}
+.container .forth-jumbotron .glyphicon {
+    font-size: 60px;
+}
+.container .forth-jumbotron .services {
+	width: 130px;
+	height: 30px;
+	background-color: black;
+	letter-spacing: 5px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	margin-top:  20px;
+}
+.container .fifth-jumbotron{
+	height: 1050px;
+	width: 1300px;
+	margin-top: -30px;
+	margin-left: -16px;
+
+}
+.container .fifth-jumbotron .blog{
+	width: 80px;
+	height: 25px;
+	background-color: black;
+	letter-spacing: 5px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	margin-top:  20px;
+}
+.container .fifth-jumbotron .r1 {
+	padding-top: 90px;
+}
+.container .fifth-jumbotron .r2 {
+	padding-top: 60px;
+}
+
+.container .fifth-jumbotron h3{
+	font-weight: bold;
+	padding-top: 30px;
+}
+.container .fifth-jumbotron .date {
+	width: 60px;
+	height: 30px;
+	background-color: #ffdb43;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	margin-top:  20px;
+}
+.container .fifth-jumbotron p {
+	font-size: 13px;
+	letter-spacing: 3px;
+	padding: 5px;
+	line-height: 30px;
+	padding-top: 30px;
+}
+.container .sixth-jumbotron{
+	height:900px;
+	width: 1300px;
+	background-color: #ffdb43;
+	margin-left: -16px;
+}
+.container .sixth-jumbotron .contact {
+	width: 130px;
+	height: 30px;
+	background-color: black;
+	letter-spacing: 5px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	margin-top:  20px;
+	margin-left: 22px;
+}
+
+.container .sixth-jumbotron .warnings{
+	padding-top: 30px;
+	width: 1090px;
+	padding-left: 23px;
+}
+.container .sixth-jumbotron .form-group #comment {
+	width: 1070px;
+	height: 100px;
+	background-color: #F7D443;
+	border-radius: 0px;
+	border-style: none;
+	color: white;
+}
+
+.container .sixth-jumbotron .form-group #email{
+	width: 350px;
+	height: 50px;
+	background-color: #F7D443;
+	border-radius: 0px;
+	border-style: none;	
+	
+
+
+}
+.container .sixth-jumbotron .form-group{
+	padding-top: 70px;
+
+}
+.container .sixth-jumbotron .send {
+	width: 160px;
+	height: 40px;
+	background-color: black;
+	letter-spacing: 3px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	margin-top:  20px;
+	margin-right: 30px;
+}
+ .container .sixth-jumbotron #sign-up{
+	width: 160px;
+	height: 40px;
+	background-color: black;
+	letter-spacing: 3px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	margin-top:  20px;
+	margin-right: 30px;
+}
+.container .seventh-jumbotron{
+	height:100%;
+	width:100%;
+	background-color: #ffdb43;
+}
+.container .seventh-jumbotron .form-group #reg-form{
+	position: center;
+	width: 350px;
+	height: 50px;
+	background-color: #F7D443;
+	border-radius: 0px;
+	border-style: none;	
+	
+
+
+}
+.container .seventh-jumbotron .sign {
+	width: 130px;
+	height: 50px;
+	background-color: black;
+	letter-spacing: 5px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	margin-top:  20px;
+	margin-left: 315px;
+	
+}
+.container .seventh-jumbotron form {
+	padding-left: 330px;
+ }
+ .container .seventh-jumbotron .register {
+	width: 130px;
+	height: 30px;
+	background-color: black;
+	letter-spacing: 5px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	margin-top:  20px;
+	
+}
+.container .seventh-jumbotron .warnings{
+	padding-top: 30px;
+	width: 355px;
+	margin-left: 310px;
+}
